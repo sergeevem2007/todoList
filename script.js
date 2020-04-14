@@ -37,7 +37,7 @@ let render = function() {
       btnTodoRemove.addEventListener('click', function(){
         for (let i = 0; i < todoData.length; i++) {
           if (todoData[i] == item) {
-            todoData.shift(todoData[i]);
+            todoData.splice(i, 1);
           }
         }
         render();
