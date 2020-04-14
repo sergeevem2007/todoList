@@ -43,7 +43,6 @@ let render = function() {
         render();
     });
   });
-    // todoData = localStorage.todoData ? JSON.parse(localStorage.todoData) : [];
 };
 
 
